@@ -3,13 +3,13 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Tabs, Tab } from '@Tab'
 import { List, app, get, post } from '@List'
-import { Form, Text, Phone } from '@Form'
+import { PageForm, Text, Phone } from '@Form'
 
 const tabs = <>
     <Tab
         title="Info"
         icon={InfoIcon}
-        panel={<Form
+        panel={<PageForm
             entityType='Profile'
             inputs={<>
                 <Text
@@ -32,7 +32,7 @@ const tabs = <>
                 <th>{item.number}</th>
                 <th>{item.country}</th>
             </>}
-            create={<Form
+            create={<PageForm
                 entityType="Phone"
                 inputs={<>
                     <Phone
