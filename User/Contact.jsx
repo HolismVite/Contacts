@@ -1,9 +1,9 @@
 import InfoIcon from '@mui/icons-material/Info';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { Tabs, Tab } from '@Tab'
-import { List, app, get, post } from '@List'
-import { PageForm, Text, Phone } from '@Form'
+import { Tabs, Tab } from 'Tab'
+import { List, app, get, post } from 'List'
+import { PageForm, Text, Phone } from 'Form'
 
 const tabs = <>
     <Tab
